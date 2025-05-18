@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Navbar from "react-bootstrap/Navbar";
-import { Container } from "react-bootstrap/lib/Tab";
-import Nav from "react-bootstrap/Nav";
-import Container from "react-bootstrap/Container";
-import { Link } from "react-bootstrap/lib/Navbar";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { flushSync } from "react-dom";
 import {
     AiFillStar,
